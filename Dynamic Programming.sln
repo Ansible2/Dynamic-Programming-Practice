@@ -29,6 +29,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "How Sum (Memo)", "Dynamic P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "How Sum (Tab)", "Dynamic Programming\How Sum (Tab)\How Sum (Tab).csproj", "{842B8542-961D-438F-BF37-1D4546003F09}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Can Build Strings (Tab)", "Can Build Strings (Tab)\Can Build Strings (Tab).csproj", "{8CE2A418-CBEA-4413-A9B0-775A60B5ECBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Build Strings (Tab)", "Count Build Strings (Tab)\Count Build Strings (Tab).csproj", "{FFB16EB7-24E9-49B7-88BE-9A34CEF2C368}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{842B8542-961D-438F-BF37-1D4546003F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{842B8542-961D-438F-BF37-1D4546003F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{842B8542-961D-438F-BF37-1D4546003F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE2A418-CBEA-4413-A9B0-775A60B5ECBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE2A418-CBEA-4413-A9B0-775A60B5ECBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE2A418-CBEA-4413-A9B0-775A60B5ECBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE2A418-CBEA-4413-A9B0-775A60B5ECBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB16EB7-24E9-49B7-88BE-9A34CEF2C368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB16EB7-24E9-49B7-88BE-9A34CEF2C368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB16EB7-24E9-49B7-88BE-9A34CEF2C368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB16EB7-24E9-49B7-88BE-9A34CEF2C368}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
