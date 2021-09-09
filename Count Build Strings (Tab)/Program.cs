@@ -20,16 +20,13 @@ namespace Count_Build_Strings__Tab_
 
             for (int indexInTarget = 0; indexInTarget < targetString.Length; indexInTarget++)
             {
-                if (constructionTable[indexInTarget] != 0)
+                foreach (var word in wordBank)
                 {
-                    foreach (var word in wordBank)
-                    {
 
-                        bool isWordOutOfBounds = word.Length + indexInTarget <= targetString.Length;
-                        if (isWordOutOfBounds && targetString.Substring(indexInTarget, word.Length) == word)
-                        {
-                            constructionTable[indexInTarget + word.Length] += constructionTable[indexInTarget];
-                        }
+                    bool isWordOutOfBounds = word.Length + indexInTarget <= targetString.Length;
+                    if (isWordOutOfBounds && targetString.Substring(indexInTarget, word.Length) == word)
+                    {
+                        constructionTable[indexInTarget + word.Length] += constructionTable[indexInTarget];
                     }
                 }
                 
